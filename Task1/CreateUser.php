@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create User</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/table.css">
-    <link rel="stylesheet" type="text/css" href="css/navbar.css">
-    <link rel="stylesheet" type="text/css" href="css/createuser.css">
+    <link rel="stylesheet" type="text/css" href="css/Table.css">
+    <link rel="stylesheet" type="text/css" href="css/NavigationBar.css">
+    <link rel="stylesheet" type="text/css" href="css/CreateUser.css">
 </head>
 
 <body>
 <?php
-    include 'config.php';
+    include 'Config.php';
     if(isset($_POST['submit'])){
     $name=$_POST['name'];
     $email=$_POST['email'];
@@ -21,7 +21,7 @@
     $result=mysqli_query($conn,$sql);
     if($result){
                echo "<script> alert('Hurray! User created');
-                               window.location='transfermoney.php';
+                               window.location='TransferMoney.php';
                      </script>";
                     
     }
@@ -29,7 +29,7 @@
 ?>
 
 <?php
-  include 'navbar.php';
+  include 'NavigationBar.php';
 ?>
 
         <h2 class="text-center pt-4">Create a User</h2>
