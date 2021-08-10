@@ -37,17 +37,17 @@
                   <div class="col-md act">
                     <img src="img/create.jpg" class="img-fluid" height="70%" width="70%">
                     <br>
-                    <a href="createuser.php"><button>Create a User</button></a>
+                    <a href="CreateUser.php"><button>Create a User</button></a>
                   </div>
                   <div class="col-md act">
                     <img src="img/transfers.jpg" class="img-fluid" height="70%" width="70%">
                     <br>
-                    <a href="transfermoney.php"><button>Make a Transaction</button></a>
+                    <a href="TransferMoney.php"><button>Make a Transaction</button></a>
                   </div>
                   <div class="col-md act">
                     <img src="img/tran.jpg" class="img-fluid" height="80%" width="70%">
                     <br>
-                    <a href="transactionhistory.php"><button>Transaction History</button></a>
+                    <a href="TransactionHistory.php"><button>Transaction History</button></a>
                   </div>
             </div>
       </div>
