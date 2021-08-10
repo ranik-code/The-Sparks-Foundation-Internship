@@ -1,5 +1,5 @@
 <?php
-include 'config.php';
+include 'Config.php';
 
 if(isset($_POST['submit']))
 {
@@ -86,8 +86,8 @@ if(isset($_POST['submit']))
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transaction</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/table.css">
-    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/Table.css">
+    <link rel="stylesheet" type="text/css" href="css/NavigationBar.css">
 
     <style type="text/css">
     	
@@ -107,13 +107,13 @@ if(isset($_POST['submit']))
 <body>
  
 <?php
-  include 'navbar.php';
+  include 'NavigationBar.php';
 ?>
 
 	<div class="container">
         <h2 class="text-center pt-4">Transaction</h2>
             <?php
-                include 'config.php';
+                include 'Config.php';
                 $sid=$_GET['id'];
                 $sql = "SELECT * FROM  users where id=$sid";
                 $result=mysqli_query($conn,$sql);
@@ -145,7 +145,7 @@ if(isset($_POST['submit']))
         <select name="to" class="form-control" required>
             <option value="" disabled selected>Choose</option>
             <?php
-                include 'config.php';
+                include 'Config.php';
                 $sid=$_GET['id'];
                 $sql = "SELECT * FROM users where id!=$sid";
                 $result=mysqli_query($conn,$sql);
