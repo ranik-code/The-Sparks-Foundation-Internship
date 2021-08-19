@@ -45,7 +45,7 @@
                     <a href="TransferMoney.php"><button>Make a Transaction</button></a>
                   </div>
                   <div class="col-md act">
-                    <img src="img/tran.jpg" class="img-fluid" height="80%" width="70%">
+                    <img src="img/trans1.jpg" class="img-fluid" height="80%" width="70%">
                     <br>
                     <a href="TransactionHistory.php"><button>Transaction History</button></a>
                   </div>
