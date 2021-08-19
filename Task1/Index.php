@@ -28,19 +28,19 @@
                 </div>
               </div>
               <div class="col-sm-12 col-md img text-center">
-                <img src="img/etienne-martin-2_K82gx9Uk8-unsplash.jpg" class="img-fluid pt-2" height="50%" width="50%">
+                <img src="Images/bank.jfif" class="img-fluid pt-2" height="50%" width="50%">
               </div>
             </div>
 
       <!-- Activity section -->
             <div class="row activity text-center">
                   <div class="col-md act">
-                    <img src="img/create.jpg" class="img-fluid" height="70%" width="70%">
+                    <img src="Images/Create user.jfif" class="img-fluid" height="70%" width="70%">
                     <br>
                     <a href="CreateUser.php"><button>Create a User</button></a>
                   </div>
                   <div class="col-md act">
-                    <img src="img/transfers.jpg" class="img-fluid" height="70%" width="70%">
+                    <img src="Images/transaction.jfif" class="img-fluid" height="70%" width="70%">
                     <br>
                     <a href="TransferMoney.php"><button>Make a Transaction</button></a>
                   </div>
