@@ -35,7 +35,7 @@
       <!-- Activity section -->
             <div class="row activity text-center">
                   <div class="col-md act">
-                    <img src="Images/create-p.png" class="img-fluid" height="70%" width="70%">
+                    <img src="Images/1-p.png" class="img-fluid" height="70%" width="70%">
                     <br>
                     <a href="CreateUser.php"><button>Create a User</button></a>
                   </div>
