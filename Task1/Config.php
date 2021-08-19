@@ -1,6 +1,6 @@
 <?php
 
-	$conn = mysqli_connect('localhost','root','','Sparks_bank');
+	$conn = mysqli_connect('localhost','root','','bbank');
 
 	if($conn){
                    // 	Connection successfully established.
