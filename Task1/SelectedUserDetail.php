@@ -42,7 +42,7 @@ if(isset($_POST['submit']))
     else if($amount == 0){
 
          echo "<script type='text/javascript'>";
-         echo "alert('Oops! Zero value cannot be transferred')";
+         echo "alert('Oops! Zero Amount, CANNOT be transferred')";
          echo "</script>";
      }
 
@@ -111,7 +111,7 @@ if(isset($_POST['submit']))
 ?>
 
 	<div class="container">
-        <h2 class="text-center pt-4">Transaction</h2>
+        <h2 class="text-center pt-4"><u>Transaction</U></h2>
             <?php
                 include 'Config.php';
                 $sid=$_GET['id'];
