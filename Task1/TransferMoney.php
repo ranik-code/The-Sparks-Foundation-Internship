@@ -31,7 +31,7 @@
 ?>
 
 <div class="container">
-        <h2 class="text-center pt-4">Transfer Money</h2>
+        <h2 class="text-center pt-4"><U>TRANSFER MONEY</U></h2>
         <br>
             <div class="row">
                 <div class="col">
@@ -39,7 +39,7 @@
                     <table class="table table-striped table-hover table-sm  table-condensed table-bordered">
                         <thead>
                             <tr>
-                            <th scope="col" class="text-center py-2">Id</th>
+                            <th scope="col" class="text-center py-2">ID</th>
                             <th scope="col" class="text-center py-2">Name</th>
                             <th scope="col" class="text-center py-2">E-Mail</th>
                             <th scope="col" class="text-center py-2">Balance</th>
