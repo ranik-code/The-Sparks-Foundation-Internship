@@ -2,18 +2,26 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: sans-serif;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .intro{
-	background: #530935;
+	background: #d61060;
 }
 h1{
-	color: #d2ff2f;
+	color: #ffffff;
 	font-weight: bold;
-	transition: 0.5s;
+	transition: 0.2s;
+	font-size: 5rem;
 }
 h3{
-	color:#adff2f;
+	color:#10d686;
+	font-weight: bolder;
+	font-size: 2rem;
+}
+h4{
+	color:#53d7ee;
+		font-weight: bolder;
+	font-size: 2rem;
 }
 button{
 	border:none;
@@ -22,7 +30,7 @@ button{
 	background:#587c9c; 
 	color:white;
 	letter-spacing: 1.5px;
-	font-size: 15px;
+	font-size: 20px;
 	transition: 0.5s;
 }
 button:hover,h1:hover{
