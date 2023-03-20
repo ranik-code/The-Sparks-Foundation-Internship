@@ -1,4 +1,4 @@
-Basic-Banking-System The Sparks Foundation Internship Project : Basic Banking System
+The Sparks Foundation Internship Project : Basic Banking System
 
 A Web Application used to transfer money between multiple users (Project contains 10 Dummy Users). A Dummy User can also be created.
 
